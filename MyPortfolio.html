@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        body{
+            background-color: rgb(194, 84, 89);
+            color: white;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(198, 67, 67);
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            
+            color: rgb(178, 178, 240);
+            font-size: 1.5rem;
+            transition: 1s;
+        }
+
+        main hr{
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+        }
+        .left{
+            font-size: 3rem;
+        }
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px 0; 
+        }
+
+        .firstSection >div{
+            width: 30%;
+        }
+
+        .leftSection{
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+        .leftSection .button:hover{
+            padding: 12px;
+            background-color: rgb(170, 170, 228);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 1s;
+        }
+        .rightSection {
+            width: 80%;
+        }
+        .purple{
+            color: rgb(150, 226, 43);
+        }
+
+        #element{
+            color: rgb(170, 170, 228);
+        }
+        .section Section{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        footer{
+            background-color: rgb(221, 40, 89);
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sanu's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="./MyPortfolio.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Sanu Hembrom</span>
+                <div>and i am a passionate</div>
+                <div>web Developer</div>
+                
+            </div>
+            <div class="button">
+                <button  src="sanuresume.pdf.pdf"  alt="pdf" style="color:white; background-color:black;">
+                    Download Resume</button>
+                <button class="btn" style="background-color: grey; color: black"> Visit Github</button>
+            </div>
+            <div class="rightSection">
+                <img src="./image/bg.png.jpeg" alt="image">
+            </div>
+            
+        </section>
+        <hr>
+        
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sanu's Portfolio</h3>
+            </div>
+        <div class="footer-first">
+
+        </div>
+        <div class="footer-second">
+            <ul>
+                
+                <li>Home</li>
+                <li>About</li>
+                <li>Sevices</li>
+                <li>Contact</li>
+            </ul>
+
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Sevices</li>
+                <li>Contact</li>
+            </ul>
+
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Sevices</li>
+                <li>Contact</li>
+            </ul>
+
+        </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;www.sanusportfolio.com |  All rights reserved
+        </div>
+    </footer>  
+    
+</body>
+</html>
